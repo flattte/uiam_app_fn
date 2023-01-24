@@ -1,0 +1,51 @@
+.timer {
+    width: 100%;
+    background-color: #002233;
+    display: flex;
+    flex-direction: row;
+}
+.timer .times{
+
+    width: 25%;
+    height: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+.two {
+    background-color: unset;
+    border:0;
+    color: white;
+}
+.timer #clock{
+    width: 45%;
+}
+.timer .zoom{
+    display: flex;
+    justify-content: center;
+
+}
+.timer .scramble{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.timer .stoper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 13em;
+
+}
+.timer .stoper .digites{
+    font-size: 5rem;
+    color: white;
+}
+.timer code {
+    color: white;
+}

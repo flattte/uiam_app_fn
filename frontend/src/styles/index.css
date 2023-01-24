@@ -1,0 +1,36 @@
+:root{
+  background-color: #002233;
+  color: #f2f2f2;
+}
+
+.root-layout{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.root-layout header{ 
+
+  width: 100%;
+  height: 4em;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  background-color: #002233;
+
+}
+.root-layout header nav{
+  gap: 10px 10px;
+  display: flex;
+}
+.root-layout header nav a{
+  text-decoration: unset;
+  color: white;
+  padding: 10px;
+  font-size: 1.5em;
+  border-radius: 9px;
+}
+
+body{
+  background-color: #002233;
+}
